@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 
-import { Geist } from 'next/font/google';
+import { Inter, Montserrat } from 'next/font/google';
 
 import { Footer } from '@/components/footer';
 import { Header } from '@/components/header';
@@ -11,11 +11,22 @@ import { cn } from '@/library/utilities';
 
 import '@/app/globals.css';
 
-const geist = Geist({
+const inter = Inter({
   display: 'swap',
-  variable: '--font-geist',
+  variable: '--font-inter',
   weight: [
     '500',
+    '700',
+  ],
+  subsets: [
+    'latin',
+  ],
+});
+
+const montserrat = Montserrat({
+  display: 'swap',
+  variable: '--font-montserrat',
+  weight: [
     '700',
   ],
   subsets: [
@@ -33,26 +44,79 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(env.DOMAIN),
   title: {
-    default: 'Front-End Development',
-    template: '%s | Front-End Development',
+    default: 'Designee | We keep it cute, creative and hassle-free',
+    template: '%s | Designee',
   },
-  description: '',
+  description: 'We keep it cute, creative and hassle-free',
+  keywords: [
+    'Designee',
+    'Design',
+    'Design Agency',
+    'Design Company',
+    'Design Services',
+    'Design Portfolio',
+    'Design Blog',
+    'Design News',
+    'Design Tips',
+    'Design Trends',
+    'Design Inspiration',
+    'Design Tools',
+    'Design Resources',
+    'Design Templates',
+    'Design Examples',
+    'Design Projects',
+    'Design Case Studies',
+    'Design Research',
+    'Design Analysis',
+    'Design Strategy',
+    'Design Implementation',
+    'Design Management',
+    'Design Leadership',
+    'Design Team',
+    'Design Culture',
+    'Design Process',
+    'Design Methodology',
+    'Design Framework',
+    'Design System',
+    'Design Pattern',
+    'Design Principle',
+    'Design Rule',
+    'Design Guideline',
+    'Design Principle',
+    'Design Rule',
+    'Design Guideline',
+    'Design Principle',
+    'Design Rule',
+    'Design Guideline',
+  ],
   openGraph: {
     type: 'website',
     url: '/',
-    siteName: 'Front-End Development',
+    siteName: 'Designee',
     locale: 'en',
     images: [
       {
-        url: '/static/frontend-dev-thumbnail.png',
+        url: '/static/designee-thumbnail.png',
         width: 1200,
         height: 630,
-        alt: 'Front-End Development',
+        alt: 'Designee',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
+  },
+  icons: {
+    icon: [
+      {
+        url: '/static/designee-icon-light.svg',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/static/designee-icon-dark.svg',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
   },
 };
 
@@ -64,7 +128,8 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
     >
       <body
         className={cn(
-          geist.variable,
+          inter.variable,
+          montserrat.variable,
           'overflow-x-auto touch-pan-y scroll-smooth',
           'flex flex-col min-h-dvh',
           'font-sans antialiased',

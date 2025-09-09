@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "frontend.dev",
+      "name": "designee.com",
       "dependencies": {
         "@hookform/resolvers": "^5.2.1",
         "@next/third-parties": "^15.5.2",

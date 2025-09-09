@@ -1,0 +1,36 @@
+{
+  "carousel": [
+    {
+      "src": "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg",
+      "alt": "Design work 1"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg",
+      "alt": "Design work 2"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg",
+      "alt": "Design work 3"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+      "alt": "Design work 4"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg",
+      "alt": "Design work 5"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+      "alt": "Design work 6"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3183188/pexels-photo-3183188.jpeg",
+      "alt": "Design work 7"
+    },
+    {
+      "src": "https://images.pexels.com/photos/3183190/pexels-photo-3183190.jpeg",
+      "alt": "Design work 8"
+    }
+  ]
+}

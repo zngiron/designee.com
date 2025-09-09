@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Home",
+    "slug": "/"
+  },
+  {
+    "label": "About Us",
+    "slug": "about-us"
+  },
+  {
+    "label": "Services",
+    "slug": "services"
+  },
+  {
+    "label": "Our Works",
+    "slug": "our-works"
+  },
+  {
+    "label": "How It Works",
+    "slug": "how-it-works"
+  },
+  {
+    "label": "FAQ",
+    "slug": "faq"
+  },
+  {
+    "label": "Pricing",
+    "slug": "pricing"
+  }
+]
