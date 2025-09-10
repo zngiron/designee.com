@@ -10,6 +10,9 @@
 
   --font-display: var(--font-montserrat);
   --font-sans: var(--font-inter);
+  --color-theme-primary: var(--theme-primary);
+  --color-theme-secondary: var(--theme-secondary);
+  --color-theme-tertiary: var(--theme-tertiary);
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -120,6 +123,10 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+  }
+
+  * {
+    @apply outline-dashed outline-1;
   }
 
   body {
