@@ -76,11 +76,9 @@
               ":BLANK_LINE:",
               ":PACKAGE:",
               ":BLANK_LINE:",
-              [
-                "@/components/**",
-                "@/library/**",
-                "@/hooks/**"
-              ],
+              "@/components/**",
+              "@/library/**",
+              "@/hooks/**",
               ":BLANK_LINE:",
               ":ALIAS:"
             ]
